@@ -28,8 +28,18 @@ Status: Downloaded newer image for hello-world:latest
 docker.io/library/hello-world:latest
 
 +¿Como ver que contenedores tengo?
-docker ps
+docker ps -a
 
 +¿Como crear contenedores? SIN ARRANCAR
 C:\Users\Developer>docker create hello-world
 d0a66c1b733798cfc3d53f7ad06a835502e46b7723cd976b8275a06ffa06fa22
+
+
++Estados de los contenedores:
+created → creado, nunca arrancado.
+running → corriendo.
+paused → pausado.
+exited → terminó o se detuvo.
+restarting → reiniciándose.
+dead → error, no se pudo limpiar.
+
