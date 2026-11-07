@@ -17,6 +17,10 @@ docker rmi hello-world  'Se borra por id o por nombre de la imagen'
 +Buscar la imagen 'Para este caso el hellow world'
 +Copiar docker pull hello-world
 
+¿Como crear contenedor con nombre personalizado?
+docker create --name contenedorMysql mysql
+
+
 Salida:
 C:\Users\Developer>docker pull hello-world
 Using default tag: latest
@@ -72,3 +76,26 @@ d17f285ff202: Pull complete
 Digest: sha256:c5d96442d3fc5b9a85380922a174692c8a9899bc1efa5d1bf5a540dcd2079f5c
 Status: Downloaded newer image for mcr.microsoft.com/dotnet/aspnet:9.0
 mcr.microsoft.com/dotnet/aspnet:9.0
+
+
+
+C:\Users\Developer>docker pull mysql
+Using default tag: latest
+latest: Pulling from library/mysql
+63751bcf6dad: Pull complete
+335c0ba6129f: Pull complete
+3594eab1df5f: Pull complete
+c3e99775cc39: Pull complete
+969334aca9fa: Pull complete
+37fa2793f15f: Pull complete
+781b429d34a1: Pull complete
+3ba4d3770669: Pull complete
+83d647c7d3d0: Pull complete
+811578fcdc4f: Pull complete
+24df5f010ba6: Download complete
+891cff0835d5: Download complete
+Digest: sha256:3819b2b23835c4a73c8b022fafc33c8095c0f81c929a8b7a84613d2fba6c52f5
+Status: Downloaded newer image for mysql:latest
+docker.io/library/mysql:latest
+
+C:\Users\Developer>
