@@ -115,3 +115,10 @@ Los que exponen servicios:
     +Nginx → 80 / 443
     +Redis → 6379
     +MongoDB → 27017
+
+
+DockerFile:
+
+Definición:
+Un DockerFile es una rchivo de texo plano que contiene un conjunto de instrucciones que Docker utiliza para construir una imagen Docker.
+
