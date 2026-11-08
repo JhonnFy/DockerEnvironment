@@ -99,3 +99,6 @@ Status: Downloaded newer image for mysql:latest
 docker.io/library/mysql:latest
 
 C:\Users\Developer>
+
+¿Como saber si esta la ultima vr de esa imagen?
+latest
