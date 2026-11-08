@@ -102,3 +102,16 @@ C:\Users\Developer>
 
 ¿Como saber si esta la ultima vr de esa imagen?
 latest
+
+¿Como inspeccionar contenedores?
+docker inspect Mysql
+
+¿Que contenedores necsitan puerto?
+Los que exponen servicios:
+    +MySQL → 3306
+    +PostgreSQL → 5432  
+    +SQL Server → 1433
+    +Web API .NET → 8080
+    +Nginx → 80 / 443
+    +Redis → 6379
+    +MongoDB → 27017
